@@ -1,0 +1,6 @@
+@compiti_HostAddress = http://localhost:5038
+
+GET {{compiti_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
