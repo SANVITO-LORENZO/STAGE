@@ -6,6 +6,9 @@ using compiti.Models.Entities;
 using compiti.Repositories.Interfaces;
 using compiti.Repositories.Implementations;
 using Microsoft.EntityFrameworkCore;
+using System.Text.Json;
+using System.IO;
+using Azure.Core;
 namespace compiti.Controllers
 {
     [Route("api/[controller]")]
@@ -94,5 +97,52 @@ namespace compiti.Controllers
 
             return Ok();
         }
+
+
+        [HttpPost("AddFromJson")]
+        public async Task<IActionResult> CreateTasksFromFile(IFormFile file)
+        {
+            if (file == null || file.Length == 0)
+            {
+                return BadRequest("No file provided");
+            }
+
+            using var stream = file.OpenReadStream();
+            var tasks = await JsonSerializer.DeserializeAsync<List<CreateTaskRequestDto>>(stream);
+
+            if (tasks != null)
+            {
+                foreach (var task in tasks)
+                {
+                    var _task = new compiti.Models.Entities.Task
+                    {
+                        Id = task.Id,
+                        Name = task.Name,
+                        Subject = task.Subject,
+                        DateTime = task.DateTime,
+                        Description = task.Description,
+                        IsCompleted = task.IsCompleted
+
+                    };
+                    await CreateTaskFromJson(_task);
+                }
+            }
+
+            await dbContext.SaveChangesAsync();
+
+            return Ok();
+        }
+
+        [HttpPost("createFromJson")]
+        public async Task<IActionResult> CreateTaskFromJson(compiti.Models.Entities.Task task )
+        {
+            await taskRepository.CreateAsync(task);
+            return Ok();
+        }
+
+
+
+
+
     }
 }

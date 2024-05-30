@@ -408,3 +408,4 @@ C:\Users\loris\Documents\GitHub\STAGE\tasks\compiti\obj\Debug\net8.0\scopedcss\b
 C:\Users\loris\Documents\GitHub\STAGE\tasks\compiti\obj\Debug\net8.0\compiti.csproj.Up2Date
 C:\Users\loris\Documents\GitHub\STAGE\tasks\compiti\obj\Debug\net8.0\compiti.genruntimeconfig.cache
 C:\Users\loris\Documents\GitHub\STAGE\tasks\compiti\obj\Debug\net8.0\ref\compiti.dll
+C:\Users\loris\Documents\GitHub\STAGE\tasks\compiti\bin\Debug\net8.0\stringa.json

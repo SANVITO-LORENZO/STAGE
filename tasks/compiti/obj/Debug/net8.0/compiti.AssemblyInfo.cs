@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("compiti")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9932525556af9c7d5e032492cc059ce5dd77a35a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5692580748f36f4e42a93ce939ac1d18c1fcdfe")]
 [assembly: System.Reflection.AssemblyProductAttribute("compiti")]
 [assembly: System.Reflection.AssemblyTitleAttribute("compiti")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
