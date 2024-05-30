@@ -1,4 +1,6 @@
 using compiti.Data;
+using compiti.Repositories.Implementations;
+using compiti.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +14,9 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("TasksPortal")));
+
+builder.Services.AddScoped<ITaskRepository, TaskRepository>();
+builder.Services.AddControllers();
 
 var app = builder.Build();
 

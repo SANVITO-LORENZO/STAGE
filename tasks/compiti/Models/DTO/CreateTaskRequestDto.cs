@@ -2,6 +2,8 @@
 {
     public class CreateTaskRequestDto
     {
+        //ID UNIVOCO
+        public Guid Id { get; set; }
         //NOME | DESCRIZIONE | MATERIA
         public string Name { get; set; }
         public string Description { get; set; }

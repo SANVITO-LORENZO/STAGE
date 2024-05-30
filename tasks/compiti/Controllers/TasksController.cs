@@ -26,11 +26,13 @@ namespace compiti.Controllers
         {
             var task = new compiti.Models.Entities.Task
             {
+                Id = request.Id,
                 Name = request.Name,
                 Subject = request.Subject,
                 DateTime = request.DateTime,
                 Description = request.Description,
                 IsCompleted = request.IsCompleted
+
             };
 
             await taskRepository.CreateAsync(task);
@@ -47,7 +49,7 @@ namespace compiti.Controllers
             return Ok(response);
         }
 
-        [HttpPost]
+        [HttpPost("Edit")]
         public async Task<IActionResult> EditTask(EditTaskRequestDto request)
         {
             var task = await dbContext.Tasks.FindAsync(request.Id);
@@ -79,7 +81,7 @@ namespace compiti.Controllers
         }
 
         [HttpDelete]
-        public async Task<IActionResult> DeleteTask(int id)
+        public async Task<IActionResult> DeleteTask(Guid id)
         {
             var task = await dbContext.Tasks.FindAsync(id);
             if (task == null)

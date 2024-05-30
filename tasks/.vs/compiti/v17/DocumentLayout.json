@@ -7,28 +7,36 @@
       "RelativeMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|solutionrelative:compiti\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|c:\\users\\loris\\documents\\github\\stage\\tasks\\compiti\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|solutionrelative:compiti\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|c:\\users\\loris\\documents\\github\\stage\\tasks\\compiti\\repositories\\implementations\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|solutionrelative:compiti\\repositories\\implementations\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|c:\\users\\loris\\documents\\github\\stage\\tasks\\compiti\\models\\dto\\edittaskrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|solutionrelative:compiti\\models\\dto\\edittaskrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|c:\\users\\loris\\documents\\github\\stage\\tasks\\compiti\\models\\entities\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|solutionrelative:compiti\\models\\entities\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|c:\\users\\loris\\documents\\github\\stage\\tasks\\compiti\\models\\dto\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|solutionrelative:compiti\\models\\dto\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|c:\\users\\loris\\documents\\github\\stage\\tasks\\compiti\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|solutionrelative:compiti\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|c:\\users\\loris\\documents\\github\\stage\\tasks\\compiti\\models\\dto\\createtaskrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|solutionrelative:compiti\\models\\dto\\createtaskrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|c:\\users\\loris\\documents\\github\\stage\\tasks\\compiti\\models\\dto\\edittaskrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|solutionrelative:compiti\\models\\dto\\edittaskrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|c:\\users\\loris\\documents\\github\\stage\\tasks\\compiti\\repositories\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|solutionrelative:compiti\\repositories\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|c:\\users\\loris\\documents\\github\\stage\\tasks\\compiti\\models\\dto\\createtaskrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|solutionrelative:compiti\\models\\dto\\createtaskrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|c:\\users\\loris\\documents\\github\\stage\\tasks\\compiti\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|solutionrelative:compiti\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +46,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\Program.cs",
+              "RelativeDocumentMoniker": "compiti\\Program.cs",
+              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\Program.cs",
+              "RelativeToolTip": "compiti\\Program.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T10:25:48.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "TaskDto.cs",
               "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\Models\\DTO\\TaskDto.cs",
               "RelativeDocumentMoniker": "compiti\\Models\\DTO\\TaskDto.cs",
@@ -55,33 +76,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "CreateTaskRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\Models\\DTO\\CreateTaskRequestDto.cs",
               "RelativeDocumentMoniker": "compiti\\Models\\DTO\\CreateTaskRequestDto.cs",
               "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\Models\\DTO\\CreateTaskRequestDto.cs",
               "RelativeToolTip": "compiti\\Models\\DTO\\CreateTaskRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T10:02:03.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "EditTaskRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\Models\\DTO\\EditTaskRequestDto.cs",
               "RelativeDocumentMoniker": "compiti\\Models\\DTO\\EditTaskRequestDto.cs",
               "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\Models\\DTO\\EditTaskRequestDto.cs",
               "RelativeToolTip": "compiti\\Models\\DTO\\EditTaskRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T10:01:59.845Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ITaskRepository.cs",
               "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\Repositories\\Interfaces\\ITaskRepository.cs",
               "RelativeDocumentMoniker": "compiti\\Repositories\\Interfaces\\ITaskRepository.cs",
@@ -94,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TaskRepository.cs",
               "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\Repositories\\Implementations\\TaskRepository.cs",
               "RelativeDocumentMoniker": "compiti\\Repositories\\Implementations\\TaskRepository.cs",
@@ -113,14 +134,27 @@
               "RelativeDocumentMoniker": "compiti\\Controllers\\TasksController.cs",
               "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\Controllers\\TasksController.cs",
               "RelativeToolTip": "compiti\\Controllers\\TasksController.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAAAFQAAAAdAAAA",
+              "ViewState": "AQIAABsAAAAAzMzMzMz8vyUAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T08:00:00.896Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\Models\\Entities\\Task.cs",
+              "RelativeDocumentMoniker": "compiti\\Models\\Entities\\Task.cs",
+              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\Models\\Entities\\Task.cs",
+              "RelativeToolTip": "compiti\\Models\\Entities\\Task.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T10:17:39.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "compiti\\Data\\ApplicationDbContext.cs",
@@ -128,8 +162,7 @@
               "RelativeToolTip": "compiti\\Data\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T07:47:45.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T07:47:45.668Z"
             }
           ]
         }
