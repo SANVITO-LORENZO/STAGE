@@ -58,8 +58,7 @@
               "RelativeToolTip": "compiti\\Program.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAABIAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T10:25:48.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T10:25:48.321Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "compiti\\Models\\DTO\\TaskDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T10:02:37.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T10:02:37.777Z"
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "compiti\\Models\\DTO\\CreateTaskRequestDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T10:02:03.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T10:02:03.631Z"
             },
             {
               "$type": "Document",
@@ -97,8 +94,7 @@
               "RelativeToolTip": "compiti\\Models\\DTO\\EditTaskRequestDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T10:01:59.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T10:01:59.845Z"
             },
             {
               "$type": "Document",
@@ -110,8 +106,7 @@
               "RelativeToolTip": "compiti\\Repositories\\Interfaces\\ITaskRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T09:26:36.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T09:26:36.275Z"
             },
             {
               "$type": "Document",
@@ -123,8 +118,7 @@
               "RelativeToolTip": "compiti\\Repositories\\Implementations\\TaskRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T08:13:49.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T08:13:49.444Z"
             },
             {
               "$type": "Document",
@@ -134,7 +128,7 @@
               "RelativeDocumentMoniker": "compiti\\Controllers\\TasksController.cs",
               "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\Controllers\\TasksController.cs",
               "RelativeToolTip": "compiti\\Controllers\\TasksController.cs",
-              "ViewState": "AQIAABsAAAAAzMzMzMz8vyUAAAAsAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAACUAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T08:00:00.896Z",
               "EditorCaption": ""
@@ -149,8 +143,7 @@
               "RelativeToolTip": "compiti\\Models\\Entities\\Task.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T10:17:39.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T10:17:39.928Z"
             },
             {
               "$type": "Document",
