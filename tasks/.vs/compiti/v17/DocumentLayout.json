@@ -130,8 +130,7 @@
               "RelativeToolTip": "compiti\\Controllers\\TasksController.cs",
               "ViewState": "AQIAAHgAAAAAAAAAAAAAAIEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T08:00:00.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T08:00:00.896Z"
             },
             {
               "$type": "Document",
@@ -139,9 +138,9 @@
               "Title": "stringa.json",
               "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\stringa.json",
               "RelativeDocumentMoniker": "compiti\\stringa.json",
-              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\stringa.json",
-              "RelativeToolTip": "compiti\\stringa.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\stringa.json*",
+              "RelativeToolTip": "compiti\\stringa.json*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-05-30T14:50:03.763Z",
               "EditorCaption": ""
