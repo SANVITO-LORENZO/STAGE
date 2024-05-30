@@ -134,7 +134,7 @@ namespace compiti.Controllers
         }
 
         [HttpPost("createFromJson")]
-        public async Task<IActionResult> CreateTaskFromJson(compiti.Models.Entities.Task task )
+        private async Task<IActionResult> CreateTaskFromJson(compiti.Models.Entities.Task task )
         {
             await taskRepository.CreateAsync(task);
             return Ok();

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|c:\\users\\loris\\documents\\github\\stage\\tasks\\compiti\\stringa.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|solutionrelative:compiti\\stringa.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|c:\\users\\loris\\documents\\github\\stage\\tasks\\compiti\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|solutionrelative:compiti\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|c:\\users\\loris\\documents\\github\\stage\\tasks\\compiti\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|solutionrelative:compiti\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|c:\\users\\loris\\documents\\github\\stage\\tasks\\compiti\\stringa.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|solutionrelative:compiti\\stringa.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96249AF5-CC56-4D31-9844-B1C038FB3E0C}|compiti\\compiti.csproj|c:\\users\\loris\\documents\\github\\stage\\tasks\\compiti\\repositories\\implementations\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,20 +62,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\appsettings.json",
-              "RelativeDocumentMoniker": "compiti\\appsettings.json",
-              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\appsettings.json",
-              "RelativeToolTip": "compiti\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-30T14:50:58.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TaskDto.cs",
               "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\Models\\DTO\\TaskDto.cs",
               "RelativeDocumentMoniker": "compiti\\Models\\DTO\\TaskDto.cs",
@@ -83,12 +70,11 @@
               "RelativeToolTip": "compiti\\Models\\DTO\\TaskDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T10:02:37.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T10:02:37.777Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CreateTaskRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\Models\\DTO\\CreateTaskRequestDto.cs",
               "RelativeDocumentMoniker": "compiti\\Models\\DTO\\CreateTaskRequestDto.cs",
@@ -96,12 +82,11 @@
               "RelativeToolTip": "compiti\\Models\\DTO\\CreateTaskRequestDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T10:02:03.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T10:02:03.631Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "EditTaskRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\Models\\DTO\\EditTaskRequestDto.cs",
               "RelativeDocumentMoniker": "compiti\\Models\\DTO\\EditTaskRequestDto.cs",
@@ -109,12 +94,11 @@
               "RelativeToolTip": "compiti\\Models\\DTO\\EditTaskRequestDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T10:01:59.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T10:01:59.845Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ITaskRepository.cs",
               "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\Repositories\\Interfaces\\ITaskRepository.cs",
               "RelativeDocumentMoniker": "compiti\\Repositories\\Interfaces\\ITaskRepository.cs",
@@ -122,12 +106,11 @@
               "RelativeToolTip": "compiti\\Repositories\\Interfaces\\ITaskRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T09:26:36.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T09:26:36.275Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Task.cs",
               "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\Models\\Entities\\Task.cs",
               "RelativeDocumentMoniker": "compiti\\Models\\Entities\\Task.cs",
@@ -135,47 +118,57 @@
               "RelativeToolTip": "compiti\\Models\\Entities\\Task.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T10:17:39.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T10:17:39.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TasksController.cs",
               "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\Controllers\\TasksController.cs",
               "RelativeDocumentMoniker": "compiti\\Controllers\\TasksController.cs",
               "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\Controllers\\TasksController.cs",
               "RelativeToolTip": "compiti\\Controllers\\TasksController.cs",
-              "ViewState": "AQIAAHEAAAAAAAAAAAAAAIEAAAAAAAAA",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAAAIEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-30T08:00:00.896Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "stringa.json",
               "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\stringa.json",
               "RelativeDocumentMoniker": "compiti\\stringa.json",
               "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\stringa.json",
               "RelativeToolTip": "compiti\\stringa.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-05-30T14:50:03.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\appsettings.json",
+              "RelativeDocumentMoniker": "compiti\\appsettings.json",
+              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\appsettings.json",
+              "RelativeToolTip": "compiti\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-30T14:50:58.728Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "compiti",
+              "Title": "compiti.csproj",
               "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\compiti.csproj",
               "RelativeDocumentMoniker": "compiti\\compiti.csproj",
               "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\tasks\\compiti\\compiti.csproj",
               "RelativeToolTip": "compiti\\compiti.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-30T14:49:44.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T14:49:44.063Z"
             },
             {
               "$type": "Document",
@@ -187,8 +180,7 @@
               "RelativeToolTip": "compiti\\Repositories\\Implementations\\TaskRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T08:13:49.444Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-30T08:13:49.444Z"
             },
             {
               "$type": "Document",
