@@ -21,7 +21,7 @@ namespace compiti.Controllers
             this.dbContext = dbContext;
         }
 
-        [HttpPost]
+        [HttpPost("create")]
         public async Task<IActionResult> CreateTask(CreateTaskRequestDto request)
         {
             var task = new compiti.Models.Entities.Task
@@ -44,42 +44,53 @@ namespace compiti.Controllers
                 IsCompleted = request.IsCompleted,
                 Subject = request.Subject
             };
-            return Ok(task);
+            return Ok(response);
         }
 
         [HttpPost]
-        public async Task<IActionResult> EditTask(compiti.Models.Entities.Task viewModel)
+        public async Task<IActionResult> EditTask(EditTaskRequestDto request)
         {
-            var task = await dbContext.Tasks.FindAsync(viewModel.Id);
+            var task = await dbContext.Tasks.FindAsync(request.Id);
 
-            if (task is not null)
+            if (task == null)
             {
-                task.Name = viewModel.Name;
-                task.Description = viewModel.Description;
-                task.IsCompleted = viewModel.IsCompleted;
-                task.Subject = viewModel.Subject;
-                task.DateTime = viewModel.DateTime;
-
-                await dbContext.SaveChangesAsync();
+                return NotFound();
             }
 
+            task.Name = request.Name;
+            task.Description = request.Description;
+            task.IsCompleted = request.IsCompleted;
+            task.Subject = request.Subject;
+            task.DateTime = request.DateTime;
 
-            return Ok(task);
+            await dbContext.SaveChangesAsync();
+
+            var response = new TaskDto
+            {
+                Id = task.Id,
+                Name = task.Name,
+                Description = task.Description,
+                DateTime = task.DateTime,
+                IsCompleted = task.IsCompleted,
+                Subject = task.Subject
+            };
+
+            return Ok(response);
         }
 
-        [HttpPost]
-        public async Task<IActionResult> DeleteTask(compiti.Models.Entities.Task _task)
+        [HttpDelete]
+        public async Task<IActionResult> DeleteTask(int id)
         {
-            var task = await dbContext.Tasks.FindAsync(_task.Id);
-            if (task is not null)
+            var task = await dbContext.Tasks.FindAsync(id);
+            if (task == null)
             {
-                dbContext.Tasks.Remove(task);
-                await dbContext.SaveChangesAsync();
+                return NotFound();
             }
 
-            return Ok(task);
+            dbContext.Tasks.Remove(task);
+            await dbContext.SaveChangesAsync();
+
+            return Ok();
         }
-
-
     }
 }
