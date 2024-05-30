@@ -4527,11 +4527,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\STAGE\\compiti\\compiti\\compiti.csproj",
+      "projectUniqueName": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\compiti\\compiti\\compiti.csproj",
       "projectName": "compiti",
-      "projectPath": "D:\\STAGE\\compiti\\compiti\\compiti.csproj",
+      "projectPath": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\compiti\\compiti\\compiti.csproj",
       "packagesPath": "C:\\Users\\loris\\.nuget\\packages\\",
-      "outputPath": "D:\\STAGE\\compiti\\compiti\\obj\\",
+      "outputPath": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\compiti\\compiti\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\loris\\AppData\\Roaming\\NuGet\\NuGet.Config",
