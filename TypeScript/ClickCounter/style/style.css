@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    font-size: 35px;
+}
+
+button {
+    width: 33%;
+    height: 50px;
+    margin: 10px;
+}
+
+.pari {
+    color: red; 
+  }
+  
+.dispari {
+    color: fuchsia; 
+  }
+  
