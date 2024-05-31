@@ -1,21 +1,27 @@
-function convert() {
-    var initialTempInput = document.getElementById("initialTemp");
-    var scaleInitial = document.getElementById("inp_I").value;
-    var scaleFinal = document.getElementById("inp_F").value;
-    var resultInput = document.getElementById("result");
-    var initialTemp = initialTempInput.value;
+function convert(): void {
+    const initialTempInput = document.getElementById("initialTemp") as HTMLInputElement;
+    const scaleInitial = (document.getElementById("inp_I") as HTMLSelectElement).value;
+    const scaleFinal = (document.getElementById("inp_F") as HTMLSelectElement).value;
+    const resultInput = document.getElementById("result") as HTMLInputElement;
+
+    const initialTemp = initialTempInput.value;
+
     if (initialTemp.trim() === "") {
         alert("Per favore, inserisci una temperatura.");
         return;
     }
-    var initialTempValue = parseFloat(initialTemp);
+
+    const initialTempValue = parseFloat(initialTemp);
+
     if (isNaN(initialTempValue)) {
         resultInput.value = "Input non valido";
         return;
     }
-    var result;
+
+    let result: number;
+
     // Conversione a gradi Celsius
-    var tempInCelsius;
+    let tempInCelsius: number;
     switch (scaleInitial) {
         case "C":
             tempInCelsius = initialTempValue;
@@ -30,6 +36,7 @@ function convert() {
             resultInput.value = "Scala iniziale non valida";
             return;
     }
+
     // Conversione dalla scala Celsius alla scala finale
     switch (scaleFinal) {
         case "C":
@@ -45,5 +52,6 @@ function convert() {
             resultInput.value = "Scala finale non valida";
             return;
     }
+
     resultInput.value = result.toFixed(2);
 }

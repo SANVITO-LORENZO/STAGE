@@ -5,32 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONVERTITORE</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div id="container">
         <p>
             <label for="">TEMPERATURA INIZIALE</label>
             <br>
-            <input type="text">            
+            <input type="text" id="initialTemp">            
         </p>
 
         <p>
-            <label for="">SCALA INIZIALE</label>
+            <label>SCALA INIZIALE</label>
             <br>
-            <select name="" id="">
-                <option value="">K</option>
-                <option value="">C</option>
-                <option value="">F</option>
+            <select id="inp_I">
+                <option value="K">K</option>
+                <option value="C">C</option>
+                <option value="F">F</option>
             </select>            
         </p>
 
         <p>
-            <label for="">SCALA FINALE</label>
+            <label>SCALA FINALE</label>
             <br>
-            <select name="" id="">
-                <option value="">K</option>
-                <option value="">C</option>
-                <option value="">F</option>
+            <select id="inp_F">
+                <option value="K">K</option>
+                <option value="C">C</option>
+                <option value="F">F</option>
             </select>            
         </p>
 
@@ -39,9 +40,9 @@
         </p>
 
         <p>
-            <label for="">RISULTATO</label>
+            <label>RISULTATO</label>
             <br>
-            <input type="text" disabled="disabled">            
+            <input type="text" disabled="disabled" id="result">            
         </p>
 
     </div>
