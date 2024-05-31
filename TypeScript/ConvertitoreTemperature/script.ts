@@ -1,14 +1,17 @@
 function convert(): void {
+
+    //NON PRENDO I VALUE DIRETTAMENTE QUA PER MODIFICARLI IN SEGUITO
     let tmpIniziale = document.getElementById("temp") as HTMLInputElement;
-    let sclaInizialeElement = document.getElementById("inp_I") as HTMLSelectElement;
-    let scalaFinaleElement = document.getElementById("inp_F") as HTMLSelectElement;
+    let Selection1 = document.getElementById("inp_I") as HTMLSelectElement;
+    let Selection2 = document.getElementById("inp_F") as HTMLSelectElement;
     let risultato = document.getElementById("risultato") as HTMLInputElement;
 
-    let sclaIniziale = sclaInizialeElement.value;
-    let scalaFinale = scalaFinaleElement.value;
-
+    //PRESA VALORI DALLE VARIABILI(non posso usare le altre perchè sono di tipo HTMLInputElement)
+    let sclaIniziale = Selection1.value;
+    let scalaFinale = Selection2.value;
     let temp = tmpIniziale.value;
 
+    //CONTROLLO SE LA STRINGA E' VUOTA
     if (temp === "") {
         alert("Per favore, inserisci una temperatura.");
         return;
@@ -16,15 +19,15 @@ function convert(): void {
 
     let temp_convertita = parseFloat(temp);
 
+    //CONTROLLO SE IL NUMERO E' VALIDO
     if (isNaN(temp_convertita)) {
         risultato.value = "Input non valido";
         return;
     }
 
-    let tmp: number;
-
-    // Conversione a gradi Celsius
+    //CONVERTO LA TEMPERATURA INSERITA INIZIALMENTE IN CELSIUS
     let tempINCelsius: number;
+
     switch (sclaIniziale) {
         case "C":
             tempINCelsius = temp_convertita;
@@ -40,7 +43,9 @@ function convert(): void {
             return;
     }
 
-    // Conversione dalla scala Celsius alla scala finale
+    //CALCOLA LA TEMPERATURA FINALE
+    let tmp: number;
+    
     switch (scalaFinale) {
         case "C":
             tmp = tempINCelsius;
@@ -56,12 +61,11 @@ function convert(): void {
             return;
     }
 
+    //IMPOSTO IL VALORE FINALE CONSIDERANDO SOLO DUE CIFRE DOPO LA VIRGOLA
     risultato.value = tmp.toFixed(2);
 
-    // Reimposta le selezioni delle scale di temperatura a "K"
-    sclaInizialeElement.value = "K";
-    scalaFinaleElement.value = "K";
-
-    // Resetta il campo di input della temperatura iniziale
+    //REIMPOSTO I VALORI A ZERO
+    Selection1.value = "K";
+    Selection2.value = "K";
     tmpIniziale.value = "";
 }

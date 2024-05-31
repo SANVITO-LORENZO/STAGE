@@ -1,22 +1,25 @@
 function convert() {
+    //NON PRENDO I VALUE DIRETTAMENTE QUA PER MODIFICARLI IN SEGUITO
     var tmpIniziale = document.getElementById("temp");
-    var sclaInizialeElement = document.getElementById("inp_I");
-    var scalaFinaleElement = document.getElementById("inp_F");
+    var Selection1 = document.getElementById("inp_I");
+    var Selection2 = document.getElementById("inp_F");
     var risultato = document.getElementById("risultato");
-    var sclaIniziale = sclaInizialeElement.value;
-    var scalaFinale = scalaFinaleElement.value;
+    //PRESA VALORI DALLE VARIABILI(non posso usare le altre perchè sono di tipo HTMLInputElement)
+    var sclaIniziale = Selection1.value;
+    var scalaFinale = Selection2.value;
     var temp = tmpIniziale.value;
+    //CONTROLLO SE LA STRINGA E' VUOTA
     if (temp === "") {
         alert("Per favore, inserisci una temperatura.");
         return;
     }
     var temp_convertita = parseFloat(temp);
+    //CONTROLLO SE IL NUMERO E' VALIDO
     if (isNaN(temp_convertita)) {
         risultato.value = "Input non valido";
         return;
     }
-    var tmp;
-    // Conversione a gradi Celsius
+    //CONVERTO LA TEMPERATURA INSERITA INIZIALMENTE IN CELSIUS
     var tempINCelsius;
     switch (sclaIniziale) {
         case "C":
@@ -32,7 +35,8 @@ function convert() {
             risultato.value = "Scala iniziale non valida";
             return;
     }
-    // Conversione dalla scala Celsius alla scala finale
+    //CALCOLA LA TEMPERATURA FINALE
+    var tmp;
     switch (scalaFinale) {
         case "C":
             tmp = tempINCelsius;
@@ -47,10 +51,10 @@ function convert() {
             risultato.value = "Scala finale non valida";
             return;
     }
+    //IMPOSTO IL VALORE FINALE CONSIDERANDO SOLO DUE CIFRE DOPO LA VIRGOLA
     risultato.value = tmp.toFixed(2);
-    // Reimposta le selezioni delle scale di temperatura a "K"
-    sclaInizialeElement.value = "K";
-    scalaFinaleElement.value = "K";
-    // Resetta il campo di input della temperatura iniziale
+    //REIMPOSTO I VALORI A ZERO
+    Selection1.value = "K";
+    Selection2.value = "K";
     tmpIniziale.value = "";
 }
