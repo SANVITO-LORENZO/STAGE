@@ -1,57 +1,67 @@
 function convert(): void {
-    const initialTempInput = document.getElementById("initialTemp") as HTMLInputElement;
-    const scaleInitial = (document.getElementById("inp_I") as HTMLSelectElement).value;
-    const scaleFinal = (document.getElementById("inp_F") as HTMLSelectElement).value;
-    const resultInput = document.getElementById("result") as HTMLInputElement;
+    let tmpIniziale = document.getElementById("temp") as HTMLInputElement;
+    let sclaInizialeElement = document.getElementById("inp_I") as HTMLSelectElement;
+    let scalaFinaleElement = document.getElementById("inp_F") as HTMLSelectElement;
+    let risultato = document.getElementById("risultato") as HTMLInputElement;
 
-    const initialTemp = initialTempInput.value;
+    let sclaIniziale = sclaInizialeElement.value;
+    let scalaFinale = scalaFinaleElement.value;
 
-    if (initialTemp.trim() === "") {
+    let temp = tmpIniziale.value;
+
+    if (temp === "") {
         alert("Per favore, inserisci una temperatura.");
         return;
     }
 
-    const initialTempValue = parseFloat(initialTemp);
+    let temp_convertita = parseFloat(temp);
 
-    if (isNaN(initialTempValue)) {
-        resultInput.value = "Input non valido";
+    if (isNaN(temp_convertita)) {
+        risultato.value = "Input non valido";
         return;
     }
 
-    let result: number;
+    let tmp: number;
 
     // Conversione a gradi Celsius
-    let tempInCelsius: number;
-    switch (scaleInitial) {
+    let tempINCelsius: number;
+    switch (sclaIniziale) {
         case "C":
-            tempInCelsius = initialTempValue;
+            tempINCelsius = temp_convertita;
             break;
         case "F":
-            tempInCelsius = (initialTempValue - 32) * 5 / 9;
+            tempINCelsius = (temp_convertita - 32) * 5 / 9;
             break;
         case "K":
-            tempInCelsius = initialTempValue - 273.15;
+            tempINCelsius = temp_convertita - 273.15;
             break;
         default:
-            resultInput.value = "Scala iniziale non valida";
+            risultato.value = "Scala iniziale non valida";
             return;
     }
 
     // Conversione dalla scala Celsius alla scala finale
-    switch (scaleFinal) {
+    switch (scalaFinale) {
         case "C":
-            result = tempInCelsius;
+            tmp = tempINCelsius;
             break;
         case "F":
-            result = tempInCelsius * 9 / 5 + 32;
+            tmp = tempINCelsius * 9 / 5 + 32;
             break;
         case "K":
-            result = tempInCelsius + 273.15;
+            tmp = tempINCelsius + 273.15;
             break;
         default:
-            resultInput.value = "Scala finale non valida";
+            risultato.value = "Scala finale non valida";
             return;
     }
 
-    resultInput.value = result.toFixed(2);
+    risultato.value = tmp.toFixed(2);
+
+    // Reimposta le selezioni delle scale di temperatura a "K"
+    sclaInizialeElement.value = "K";
+    scalaFinaleElement.value = "K";
+
+    // Resetta il campo di input della temperatura iniziale
+    tmpIniziale.value = "";
 }
