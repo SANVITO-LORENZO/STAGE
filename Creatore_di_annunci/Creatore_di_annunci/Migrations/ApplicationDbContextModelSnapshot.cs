@@ -22,21 +22,6 @@ namespace Creatore_di_annunci.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Creatore_di_annunci.Models.Entities.Descrizione", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("_Descrizione")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Descrizioni");
-                });
-
             modelBuilder.Entity("Creatore_di_annunci.Models.Entities.House", b =>
                 {
                     b.Property<Guid>("Id")
@@ -65,6 +50,10 @@ namespace Creatore_di_annunci.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Path")
                         .IsRequired()

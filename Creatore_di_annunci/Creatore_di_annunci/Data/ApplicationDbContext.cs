@@ -14,6 +14,5 @@ namespace Creatore_di_annunci.Data
         //ATTRIBUTI
         public DbSet<House> houses { get; set; }
         public DbSet<Video> Videos { get; set; }
-        public DbSet<Descrizione> Descrizioni { get; set; }
     }
 }

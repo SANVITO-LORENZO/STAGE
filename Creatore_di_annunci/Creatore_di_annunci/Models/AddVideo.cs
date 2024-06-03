@@ -2,6 +2,6 @@
 {
     public class AddVideo
     {
-        public string Path { get; set; }
+        public string VideoFile { get; set; }
     }
 }

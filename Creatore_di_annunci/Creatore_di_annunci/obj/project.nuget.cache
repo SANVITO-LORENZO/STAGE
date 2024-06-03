@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4M/IrbSOawo=",
+  "dgSpecHash": "LX9lz+vvV1M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\loris\\source\\repos\\Creatore_di_annunci\\Creatore_di_annunci\\Creatore_di_annunci.csproj",
+  "projectFilePath": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Creatore_di_annunci.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\loris\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\loris\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

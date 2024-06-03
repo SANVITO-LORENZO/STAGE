@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\loris\\source\\repos\\Creatore_di_annunci\\Creatore_di_annunci\\Creatore_di_annunci.csproj": {}
+    "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Creatore_di_annunci.csproj": {}
   },
   "projects": {
-    "C:\\Users\\loris\\source\\repos\\Creatore_di_annunci\\Creatore_di_annunci\\Creatore_di_annunci.csproj": {
+    "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Creatore_di_annunci.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\loris\\source\\repos\\Creatore_di_annunci\\Creatore_di_annunci\\Creatore_di_annunci.csproj",
+        "projectUniqueName": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Creatore_di_annunci.csproj",
         "projectName": "Creatore_di_annunci",
-        "projectPath": "C:\\Users\\loris\\source\\repos\\Creatore_di_annunci\\Creatore_di_annunci\\Creatore_di_annunci.csproj",
+        "projectPath": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Creatore_di_annunci.csproj",
         "packagesPath": "C:\\Users\\loris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\loris\\source\\repos\\Creatore_di_annunci\\Creatore_di_annunci\\obj\\",
+        "outputPath": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\loris\\AppData\\Roaming\\NuGet\\NuGet.Config",

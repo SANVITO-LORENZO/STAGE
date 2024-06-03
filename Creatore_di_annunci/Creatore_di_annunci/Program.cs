@@ -8,7 +8,7 @@ builder.Services.AddControllersWithViews();
 
 //AGGIUNGO CANNESSIONE AL DATABASE --- TRAMITE UNA STRINGA DI CONNESSIONE
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("House_Informations")));
+options.UseSqlServer(builder.Configuration.GetConnectionString("Houses")));
 
 
 var app = builder.Build();
