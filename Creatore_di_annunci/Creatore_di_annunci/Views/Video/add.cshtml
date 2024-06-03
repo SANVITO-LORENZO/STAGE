@@ -1,0 +1,22 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+@model Creatore_di_annunci.Models.AddVideo
+
+<h1>ADD VIDEO</h1>
+
+<form method="post">
+
+    <div class="mt-3">
+        <label class="form-label">PATH </label>
+        <input type="file" class="form-control" asp-for="Path" />
+    </div>
+
+    <div class="mt-3">
+        <button type="submit" class="btn btn-primary"> ADD </button>
+    </div>
+</form>
