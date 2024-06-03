@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\STAGE\\TEST1\\StudentPortal\\StudentPortal.web\\StudentPortal.web.csproj": {}
+    "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\StudentPortal\\StudentPortal.web\\StudentPortal.web.csproj": {}
   },
   "projects": {
-    "D:\\STAGE\\TEST1\\StudentPortal\\StudentPortal.web\\StudentPortal.web.csproj": {
+    "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\StudentPortal\\StudentPortal.web\\StudentPortal.web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\STAGE\\TEST1\\StudentPortal\\StudentPortal.web\\StudentPortal.web.csproj",
+        "projectUniqueName": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\StudentPortal\\StudentPortal.web\\StudentPortal.web.csproj",
         "projectName": "StudentPortal.web",
-        "projectPath": "D:\\STAGE\\TEST1\\StudentPortal\\StudentPortal.web\\StudentPortal.web.csproj",
+        "projectPath": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\StudentPortal\\StudentPortal.web\\StudentPortal.web.csproj",
         "packagesPath": "C:\\Users\\loris\\.nuget\\packages\\",
-        "outputPath": "D:\\STAGE\\TEST1\\StudentPortal\\StudentPortal.web\\obj\\",
+        "outputPath": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\StudentPortal\\StudentPortal.web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\loris\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q0dFzPdn1Y8=",
+  "dgSpecHash": "Ief6P794C1E=",
   "success": true,
-  "projectFilePath": "D:\\STAGE\\TEST1\\StudentPortal\\StudentPortal.web\\StudentPortal.web.csproj",
+  "projectFilePath": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\StudentPortal\\StudentPortal.web\\StudentPortal.web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\loris\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\loris\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
