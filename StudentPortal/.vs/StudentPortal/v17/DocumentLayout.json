@@ -66,8 +66,7 @@
               "RelativeToolTip": "StudentPortal.web\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-04T14:32:46.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-04T14:32:46.339Z"
             },
             {
               "$type": "Document",
@@ -91,8 +90,7 @@
               "RelativeToolTip": "StudentPortal.web\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-03T09:15:44.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-03T09:15:44.344Z"
             },
             {
               "$type": "Document",
@@ -104,8 +102,7 @@
               "RelativeToolTip": "StudentPortal.web\\Views\\Students\\Add.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAAACIAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-03T08:59:39.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-03T08:59:39.045Z"
             },
             {
               "$type": "Document",
@@ -129,8 +126,7 @@
               "RelativeToolTip": "StudentPortal.web\\Views\\Students\\List.cshtml",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-03T08:59:37.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-03T08:59:37.451Z"
             },
             {
               "$type": "Document",
@@ -140,7 +136,7 @@
               "RelativeDocumentMoniker": "StudentPortal.web\\Views\\Students\\Edit.cshtml",
               "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\StudentPortal\\StudentPortal.web\\Views\\Students\\Edit.cshtml",
               "RelativeToolTip": "StudentPortal.web\\Views\\Students\\Edit.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAC8AAAAAAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACwAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-03T08:59:35.499Z",
               "EditorCaption": ""
@@ -155,8 +151,7 @@
               "RelativeToolTip": "StudentPortal.web\\Controllers\\StudentsController.cs",
               "ViewState": "AQIAACkAAAAAAAAAAAAwwDEAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T08:38:02.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-03T08:38:02.471Z"
             },
             {
               "$type": "Document",
