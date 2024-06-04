@@ -1,0 +1,32 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model Creatore_di_annunci.Models.Entities.Video
+
+<h1>DELETE VIDEO</h1>
+
+@if (Model is null)
+{
+    <p>No Video was found with this Id</p>
+}
+@if (Model is not null)
+{
+
+    <form method="post">
+
+        <div class="mt-3">
+            <label class="form-label">ID </label>
+            <input type="text" class="form-control" asp-for="Id" readonly />
+        </div>
+
+        <div class="mt-3">
+            <button type="submit" class="btn btn-danger ms-3" asp-action="Delete" asp-controller="Video"> DELETE </button>
+            <input type="hidden" name="id" value="@Model.Id"/>
+        </div>
+
+    </form>
+
+}

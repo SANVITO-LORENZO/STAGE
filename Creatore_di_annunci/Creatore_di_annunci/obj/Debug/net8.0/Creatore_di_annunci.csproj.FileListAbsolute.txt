@@ -271,3 +271,4 @@ C:\Users\loris\Documents\GitHub\STAGE\Creatore_di_annunci\Creatore_di_annunci\ob
 C:\Users\loris\Documents\GitHub\STAGE\Creatore_di_annunci\Creatore_di_annunci\obj\Debug\net8.0\Creatore_di_annunci.pdb
 C:\Users\loris\Documents\GitHub\STAGE\Creatore_di_annunci\Creatore_di_annunci\obj\Debug\net8.0\Creatore_di_annunci.genruntimeconfig.cache
 C:\Users\loris\Documents\GitHub\STAGE\Creatore_di_annunci\Creatore_di_annunci\obj\Debug\net8.0\ref\Creatore_di_annunci.dll
+C:\Users\loris\Documents\GitHub\STAGE\Creatore_di_annunci\Creatore_di_annunci\bin\Debug\net8.0\Python.Runtime.dll

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Creatore_di_annunci.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240603152022_r")]
-    partial class r
+    [Migration("20240604122902_e")]
+    partial class e
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

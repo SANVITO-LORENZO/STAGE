@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Creatore_di_annunci.Migrations
 {
     /// <inheritdoc />
-    public partial class v : Migration
+    public partial class e : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
