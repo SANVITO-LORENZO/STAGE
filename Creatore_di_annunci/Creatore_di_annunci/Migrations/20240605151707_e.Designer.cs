@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Creatore_di_annunci.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240604122902_e")]
+    [Migration("20240605151707_e")]
     partial class e
     {
         /// <inheritdoc />
@@ -64,6 +64,10 @@ namespace Creatore_di_annunci.Migrations
 
                     b.Property<int>("Status")
                         .HasColumnType("int");
+
+                    b.Property<string>("json")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

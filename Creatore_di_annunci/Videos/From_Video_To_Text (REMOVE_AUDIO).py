@@ -40,7 +40,7 @@ def main():
         for video_Id, video_Path in videos:
             print(f"Processing video ID: {video_Id}, Path: {video_Path}")
             
-            # AGGIORNAMENTO DELLO STATO A 2 (IN ELABORAZIONE)
+            # AGGIORNAMENTO DELLO STATO A 1 (IN ELABORAZIONE)
             cursor.execute("UPDATE dbo.Videos SET status = 1 WHERE id = ?", video_Id)
             conn.commit()
 
@@ -58,6 +58,11 @@ def main():
                 if os.path.exists(audio_path):
                     os.remove(audio_path)
                     print(f"Deleted audio file: {audio_path}")
+
+                # ELIMINAZIONE DEL FILE VIDEO
+                if os.path.exists(video_Path):
+                    os.remove(video_Path)
+                    print(f"Deleted video file: {video_Path}")
 
             except Exception as e:
                 print(f"Error processing video ID: {video_Id}, Error: {e}")
