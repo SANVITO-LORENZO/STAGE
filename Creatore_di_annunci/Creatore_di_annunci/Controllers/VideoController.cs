@@ -182,6 +182,8 @@ namespace Creatore_di_annunci.Controllers
             dbContext.Videos.Update(video);
             await dbContext.SaveChangesAsync();
 
+            //var api = new  COMMENTO PER ERRORE GITHUB Open<--- DA UNIRE ---->  AIAPI("YOUR_API_KEY");
+
             // Descrizione dell'appartamento
             string description = video.Description;
 
@@ -214,50 +216,5 @@ namespace Creatore_di_annunci.Controllers
             dbContext.Videos.Update(video);
             await dbContext.SaveChangesAsync();
         }
-        //static async Task GeneraAnnunncio(Guid id, ApplicationDbContext dbContext)
-        //{
-        //    // Recupera il video dal database utilizzando l'ID
-        //    var video = await dbContext.Videos.FindAsync(id);
-        //    if (video == null)
-        //    {
-        //        // Gestisci il caso in cui il video non viene trovato
-        //        throw new Exception("Video not found");
-        //    }
-
-        //    // Aggiorna lo stato a 3 all'inizio
-        //    video.Status = 3;
-        //    dbContext.Videos.Update(video);
-        //    await dbContext.SaveChangesAsync();
-
-        //    // Sostituisci 'YOUR_API_KEY' con la tua chiave API reale.
-        //    var api = new OpenAIAPI("YOUR_API_KEY");
-
-        //    // Descrizione dell'appartamento
-        //    string description = video.Description;
-
-        //    // Creazione del messaggio da inviare
-        //    var message = new ChatMessage()
-        //    {
-        //        Role = ChatMessageRole.User,
-        //        Content = $"Crea un annuncio per questo appartamento: {description}"
-        //    };
-
-        //    var chatRequest = new ChatRequest
-        //    {
-        //        Model = OpenAI_API.Models.Model.ChatGPTTurbo,  // Specifica il modello da utilizzare
-        //        Messages = new List<ChatMessage> { message }   // Invia il messaggio creato
-        //    };
-
-        //    // Esegui la richiesta in modo asincrono e ottieni la risposta
-        //    var response = await api.Chat.CreateChatCompletionAsync(chatRequest);
-
-        //    // Aggiungi l'annuncio generato all'attributo Annuncio
-        //    video.Annuncio = response.Choices.First().Message.Content;
-
-        //    // Aggiorna lo stato a 4 dopo la generazione dell'annuncio
-        //    video.Status = 4;
-        //    dbContext.Videos.Update(video);
-        //    await dbContext.SaveChangesAsync();
-        //}
     }
 }
