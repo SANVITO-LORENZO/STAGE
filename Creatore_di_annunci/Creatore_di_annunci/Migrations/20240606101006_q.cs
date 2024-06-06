@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Creatore_di_annunci.Migrations
 {
     /// <inheritdoc />
-    public partial class e : Migration
+    public partial class q : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -34,7 +34,8 @@ namespace Creatore_di_annunci.Migrations
                     Path = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Status = table.Column<int>(type: "int", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    json = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    json = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Annuncio = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {

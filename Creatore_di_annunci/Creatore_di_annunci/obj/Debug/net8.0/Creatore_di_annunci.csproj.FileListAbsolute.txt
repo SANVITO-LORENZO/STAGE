@@ -273,3 +273,6 @@ C:\Users\loris\Documents\GitHub\STAGE\Creatore_di_annunci\Creatore_di_annunci\ob
 C:\Users\loris\Documents\GitHub\STAGE\Creatore_di_annunci\Creatore_di_annunci\obj\Debug\net8.0\ref\Creatore_di_annunci.dll
 C:\Users\loris\Documents\GitHub\STAGE\Creatore_di_annunci\Creatore_di_annunci\bin\Debug\net8.0\Python.Runtime.dll
 C:\Users\loris\Documents\GitHub\STAGE\Creatore_di_annunci\Creatore_di_annunci\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\loris\Documents\GitHub\STAGE\Creatore_di_annunci\Creatore_di_annunci\bin\Debug\net8.0\Forge.OpenAI.dll
+C:\Users\loris\Documents\GitHub\STAGE\Creatore_di_annunci\Creatore_di_annunci\bin\Debug\net8.0\OpenAI_API.dll
+C:\Users\loris\Documents\GitHub\STAGE\Creatore_di_annunci\Creatore_di_annunci\bin\Debug\net8.0\OpenAI-DotNet.dll

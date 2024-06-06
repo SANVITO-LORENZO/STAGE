@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\models\\entities\\house.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\models\\entities\\house.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\controllers\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\controllers\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\models\\addhouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\models\\addhouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\controllers\\housecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +23,12 @@
       "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\views\\video\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\controllers\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\controllers\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\models\\entities\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\models\\entities\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\models\\addhouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\models\\addhouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\models\\entities\\house.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\models\\entities\\house.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\views\\video\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -50,37 +50,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddVideo.cs",
-              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Models\\AddVideo.cs",
-              "RelativeDocumentMoniker": "Creatore_di_annunci\\Models\\AddVideo.cs",
-              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Models\\AddVideo.cs",
-              "RelativeToolTip": "Creatore_di_annunci\\Models\\AddVideo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Creatore_di_annunci\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Creatore_di_annunci\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAEBVwCAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T14:07:30.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VideoController.cs",
+              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Controllers\\VideoController.cs",
+              "RelativeDocumentMoniker": "Creatore_di_annunci\\Controllers\\VideoController.cs",
+              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Controllers\\VideoController.cs",
+              "RelativeToolTip": "Creatore_di_annunci\\Controllers\\VideoController.cs",
+              "ViewState": "AQIAAK0AAAAAAAAAAAAQwLcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T15:14:51.436Z",
+              "WhenOpened": "2024-06-03T08:26:33.567Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HouseController.cs",
-              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Controllers\\HouseController.cs",
-              "RelativeDocumentMoniker": "Creatore_di_annunci\\Controllers\\HouseController.cs",
-              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Controllers\\HouseController.cs",
-              "RelativeToolTip": "Creatore_di_annunci\\Controllers\\HouseController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T14:46:52.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "AddHouse.cs",
               "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Models\\AddHouse.cs",
               "RelativeDocumentMoniker": "Creatore_di_annunci\\Models\\AddHouse.cs",
@@ -92,28 +91,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "House.cs",
-              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Models\\Entities\\House.cs",
-              "RelativeDocumentMoniker": "Creatore_di_annunci\\Models\\Entities\\House.cs",
-              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Models\\Entities\\House.cs",
-              "RelativeToolTip": "Creatore_di_annunci\\Models\\Entities\\House.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "HouseController.cs",
+              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Controllers\\HouseController.cs",
+              "RelativeDocumentMoniker": "Creatore_di_annunci\\Controllers\\HouseController.cs",
+              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Controllers\\HouseController.cs",
+              "RelativeToolTip": "Creatore_di_annunci\\Controllers\\HouseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T14:43:43.707Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Creatore_di_annunci\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Creatore_di_annunci\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAIBJwCAAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-04T14:07:30.969Z"
+              "WhenOpened": "2024-06-05T14:46:52.457Z"
             },
             {
               "$type": "Document",
@@ -129,28 +115,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "List.cshtml",
               "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Views\\Video\\List.cshtml",
               "RelativeDocumentMoniker": "Creatore_di_annunci\\Views\\Video\\List.cshtml",
               "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Views\\Video\\List.cshtml",
               "RelativeToolTip": "Creatore_di_annunci\\Views\\Video\\List.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAmAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACQAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-04T14:04:00.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-04T14:04:00.284Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VideoController.cs",
-              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Controllers\\VideoController.cs",
-              "RelativeDocumentMoniker": "Creatore_di_annunci\\Controllers\\VideoController.cs",
-              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Controllers\\VideoController.cs",
-              "RelativeToolTip": "Creatore_di_annunci\\Controllers\\VideoController.cs",
-              "ViewState": "AQIAAHsAAAAAAAAAAAAAAIgAAAArAAAA",
+              "DocumentIndex": 3,
+              "Title": "AddVideo.cs",
+              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Models\\AddVideo.cs",
+              "RelativeDocumentMoniker": "Creatore_di_annunci\\Models\\AddVideo.cs",
+              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Models\\AddVideo.cs",
+              "RelativeToolTip": "Creatore_di_annunci\\Models\\AddVideo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T08:26:33.567Z"
+              "WhenOpened": "2024-06-05T15:14:51.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "House.cs",
+              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Models\\Entities\\House.cs",
+              "RelativeDocumentMoniker": "Creatore_di_annunci\\Models\\Entities\\House.cs",
+              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Models\\Entities\\House.cs",
+              "RelativeToolTip": "Creatore_di_annunci\\Models\\Entities\\House.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:43:43.707Z"
             },
             {
               "$type": "Document",
@@ -160,7 +157,7 @@
               "RelativeDocumentMoniker": "Creatore_di_annunci\\Models\\Entities\\Video.cs",
               "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Models\\Entities\\Video.cs",
               "RelativeToolTip": "Creatore_di_annunci\\Models\\Entities\\Video.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T12:33:37.719Z"
             },

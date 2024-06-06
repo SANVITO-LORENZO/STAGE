@@ -30,7 +30,6 @@ def main():
 
         # SELEZIONE DEGLI ELEMENTI CON STATO 0
         cursor.execute("SELECT id, Path FROM dbo.Videos WHERE status = 0")
-        
         videos = cursor.fetchall()
 
         if not videos:
@@ -38,26 +37,29 @@ def main():
             return
 
         for video_Id, video_Path in videos:
-            print(f"Processing video ID: {video_Id}, Path: {video_Path}")
+            #print(f"Processing video ID: {video_Id}, Path: {video_Path}")
             
-            # AGGIORNAMENTO DELLO STATO A 2 (IN ELABORAZIONE)
+            # AGGIORNAMENTO DELLO STATO A 1 (IN ELABORAZIONE)
             cursor.execute("UPDATE dbo.Videos SET status = 1 WHERE id = ?", video_Id)
             conn.commit()
 
             try:
                 audio_path = extract_audio(video_Path)
                 transcription = transcribe_audio(audio_path)
+                
+                # OUTPUT DELLA TRASCRIZIONE
+                print({transcription})
 
                 # AGGIORNAMENTO DEL DATABASE
                 cursor.execute("UPDATE dbo.Videos SET Description = ?, Status = 2 WHERE id = ?", (transcription, video_Id))
                 conn.commit()
                 
-                print(f"Updated video ID: {video_Id} with transcription.")
+                #print(f"Updated video ID: {video_Id} with transcription.")
 
                 # ELIMINAZIONE DEL FILE AUDIO UTILIZZATO PER LA TRASCRIZIONE
                 if os.path.exists(audio_path):
                     os.remove(audio_path)
-                    print(f"Deleted audio file: {audio_path}")
+                    #print(f"Deleted audio file: {audio_path}")
 
             except Exception as e:
                 print(f"Error processing video ID: {video_Id}, Error: {e}")
@@ -65,7 +67,7 @@ def main():
                 cursor.execute("UPDATE dbo.Videos SET status = 0 WHERE id = ?", video_Id)
                 conn.commit()
 
-        print("Processing completed.")
+        #print("Processing completed.")
 
     except pyodbc.Error as e:
         print(f"SQL Server error: {e}")

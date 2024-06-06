@@ -16,6 +16,7 @@
             <th>STATUS</th>
             <th>DESCRIPTION</th>
             <th>JSON</th>
+            <th>ANNUNCIO</th>
             <th>DELETE</th>
         </tr>
     </thead>
@@ -27,6 +28,7 @@
                 <td>@video.Status</td>
                 <td>@video.Description</td>
                 <td>@video.json</td>
+                <td>@video.Annuncio</td>
                 <td>
                     <a class="btn btn-danger ms-3" asp-controller="Video" asp-action="Edit" asp-route-id="@video.Id">DELETE</a>
                 </td>

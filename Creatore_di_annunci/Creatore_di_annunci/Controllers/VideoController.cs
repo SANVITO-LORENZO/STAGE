@@ -6,6 +6,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Linq;
 using System.Diagnostics;
+using OpenAI_API;
+using OpenAI_API.Chat;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Creatore_di_annunci.Controllers
 {
@@ -28,41 +33,42 @@ namespace Creatore_di_annunci.Controllers
         public async Task<IActionResult> Add(AddVideo viewModel)
         {
             var estensioni = new[] { ".mp4", ".mov", ".wmv", ".avi", ".mkv" };
-            string FilePath = viewModel.VideoFile;
-            var Estensione = Path.GetExtension(FilePath).ToLowerInvariant();
+            string filePath = viewModel.VideoFile;
+            var estensione = Path.GetExtension(filePath).ToLowerInvariant();
 
-            // CONTROLLO SE TRA LE ESTENSIONI NEL VETTORE E' PRESENTE QUELLA DEL MIO FILE
-            if (string.IsNullOrEmpty(Estensione) || !estensioni.Contains(Estensione))
+            // Controllo se tra le estensioni nel vettore è presente quella del mio file
+            if (string.IsNullOrEmpty(estensione) || !estensioni.Contains(estensione))
             {
                 ModelState.AddModelError("VideoFile", "Invalid file type.");
                 return View(viewModel);
             }
 
-            // CREO NUOVO OGGETTO VIDEO
+            // Crea nuovo oggetto Video
             var video = new Video
             {
                 Status = 0,
-                Description = "",
+                Description = "", // La descrizione sarà aggiornata dopo l'esecuzione dello script
                 Path = "",
-                json=""
+                json = "",
+                Annuncio = ""
             };
 
-            // SALVATAGGIO NEL DATABASE
+            // Salvataggio nel database
             await dbContext.Videos.AddAsync(video);
             await dbContext.SaveChangesAsync();
 
-            // CREAZIONE DEL NOME E ESTENSIONE DEL NUOVO FILE
-            var newFileName = $"{video.Id}{Estensione}";
+            // Creazione del nome e estensione del nuovo file
+            var newFileName = $"{video.Id}{estensione}";
             var uploadPath = Path.Combine(@"C:\Users\loris\Documents\GitHub\STAGE\Creatore_di_annunci\Videos", newFileName);
 
             Directory.CreateDirectory(Path.GetDirectoryName(uploadPath));
 
-            // FUNZIONER' SOLO NELLA CARTELLA VIDEOS
-            string newpath = @"C:\Users\loris\Documents\GitHub\STAGE\Creatore_di_annunci\Videos\" + FilePath;
+            // Funziona solo nella cartella Videos
+            string newpath = Path.Combine(@"C:\Users\loris\Documents\GitHub\STAGE\Creatore_di_annunci\Videos", filePath);
 
             try
             {
-                // COPIA DEL FILE
+                // Copia del file
                 System.IO.File.Copy(newpath, uploadPath, true);
             }
             catch (Exception ex)
@@ -71,32 +77,31 @@ namespace Creatore_di_annunci.Controllers
                 return View(viewModel);
             }
 
-            // RIMOZIONE DEL VECCHIO FILE
+            // Rimozione del vecchio file
             System.IO.File.Delete(newpath);
 
-            // RINOMINAZIONE DEL PATH E SALVATAGGIO NEL DATABASE
+            // Rinomina del path e salvataggio nel database
             video.Path = uploadPath;
             dbContext.Videos.Update(video);
             await dbContext.SaveChangesAsync();
 
-            RedirectToAction("List", "Video");
-
-            // ESECUZIONE DELLO SCRIPT PYTHON
+            // Esecuzione dello script Python
             var scriptPath = @"C:\Users\loris\Documents\GitHub\STAGE\Creatore_di_annunci\Videos\From_Video_To_Text.py";
             var processStartInfo = new ProcessStartInfo
             {
                 FileName = "python",
-                Arguments = $"\"{scriptPath}\"",
+                Arguments = $"\"{scriptPath}\" \"{uploadPath}\"", // Passa il percorso del video come argomento
                 RedirectStandardOutput = true,
                 RedirectStandardError = true,
                 UseShellExecute = false,
                 CreateNoWindow = true
             };
 
+            string output;
             using (var process = new Process { StartInfo = processStartInfo })
             {
                 process.Start();
-                string output = process.StandardOutput.ReadToEnd();
+                output = process.StandardOutput.ReadToEnd();
                 string error = process.StandardError.ReadToEnd();
                 process.WaitForExit();
 
@@ -106,6 +111,12 @@ namespace Creatore_di_annunci.Controllers
                     return View(viewModel);
                 }
             }
+
+            // Imposta la descrizione con l'output dello script
+            string descrizione = output.Trim(); // Rimuovi eventuali spazi bianchi
+
+            // Richiama la funzione GeneraAnnunncio passando la descrizione, l'id del video e il dbContext
+            await GeneraAnnunncio(descrizione, video.Id, dbContext);
 
             return RedirectToAction("List", "Video");
 
@@ -135,6 +146,7 @@ namespace Creatore_di_annunci.Controllers
                 video.Description = viewModel.Description;
                 video.Status = viewModel.Status;
                 video.json = viewModel.json;
+                video.Annuncio = viewModel.Annuncio;
 
                 await dbContext.SaveChangesAsync();
             }
@@ -155,5 +167,97 @@ namespace Creatore_di_annunci.Controllers
             return RedirectToAction("List", "Video");
         }
 
+        static async Task GeneraAnnunncio(string descrizione,Guid id, ApplicationDbContext dbContext)
+        {
+            // Recupera il video dal database utilizzando l'ID
+            var video = await dbContext.Videos.FindAsync(id);
+            if (video == null)
+            {
+                // Gestisci il caso in cui il video non viene trovato
+                throw new Exception("Video not found");
+            }
+
+            video.Description= descrizione;
+            video.Status = 3;
+            dbContext.Videos.Update(video);
+            await dbContext.SaveChangesAsync();
+
+            // Descrizione dell'appartamento
+            string description = video.Description;
+
+            if (string.IsNullOrEmpty(description))
+            {
+                throw new Exception("Description is null or empty");
+            }
+
+            // Creazione del messaggio da inviare
+            var message = new ChatMessage()
+            {
+                Role = ChatMessageRole.User,
+                Content = $"Crea un annuncio per questo appartamento: {description}"
+            };
+
+            var chatRequest = new ChatRequest
+            {
+                Model = OpenAI_API.Models.Model.ChatGPTTurbo,  // Specifica il modello da utilizzare
+                Messages = new List<ChatMessage> { message }   // Invia il messaggio creato
+            };
+
+            // Esegui la richiesta in modo asincrono e ottieni la risposta
+            var response = await api.Chat.CreateChatCompletionAsync(chatRequest);
+
+            // Aggiungi l'annuncio generato all'attributo Annuncio
+            video.Annuncio = response.Choices.First().Message.Content;
+
+            // Aggiorna lo stato a 4 dopo la generazione dell'annuncio
+            video.Status = 4;
+            dbContext.Videos.Update(video);
+            await dbContext.SaveChangesAsync();
+        }
+        //static async Task GeneraAnnunncio(Guid id, ApplicationDbContext dbContext)
+        //{
+        //    // Recupera il video dal database utilizzando l'ID
+        //    var video = await dbContext.Videos.FindAsync(id);
+        //    if (video == null)
+        //    {
+        //        // Gestisci il caso in cui il video non viene trovato
+        //        throw new Exception("Video not found");
+        //    }
+
+        //    // Aggiorna lo stato a 3 all'inizio
+        //    video.Status = 3;
+        //    dbContext.Videos.Update(video);
+        //    await dbContext.SaveChangesAsync();
+
+        //    // Sostituisci 'YOUR_API_KEY' con la tua chiave API reale.
+        //    var api = new OpenAIAPI("YOUR_API_KEY");
+
+        //    // Descrizione dell'appartamento
+        //    string description = video.Description;
+
+        //    // Creazione del messaggio da inviare
+        //    var message = new ChatMessage()
+        //    {
+        //        Role = ChatMessageRole.User,
+        //        Content = $"Crea un annuncio per questo appartamento: {description}"
+        //    };
+
+        //    var chatRequest = new ChatRequest
+        //    {
+        //        Model = OpenAI_API.Models.Model.ChatGPTTurbo,  // Specifica il modello da utilizzare
+        //        Messages = new List<ChatMessage> { message }   // Invia il messaggio creato
+        //    };
+
+        //    // Esegui la richiesta in modo asincrono e ottieni la risposta
+        //    var response = await api.Chat.CreateChatCompletionAsync(chatRequest);
+
+        //    // Aggiungi l'annuncio generato all'attributo Annuncio
+        //    video.Annuncio = response.Choices.First().Message.Content;
+
+        //    // Aggiorna lo stato a 4 dopo la generazione dell'annuncio
+        //    video.Status = 4;
+        //    dbContext.Videos.Update(video);
+        //    await dbContext.SaveChangesAsync();
+        //}
     }
 }

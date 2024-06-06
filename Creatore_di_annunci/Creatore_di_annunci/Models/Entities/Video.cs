@@ -6,7 +6,7 @@
         public string Path { get; set; }
         public int Status { get; set; }
         public string Description { get; set; }
-
         public string json { get; set; }
+        public string Annuncio { get; set; }
     }
 }
