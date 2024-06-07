@@ -7,40 +7,56 @@
       "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\controllers\\videocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\models\\addhouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\models\\addhouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\controllers\\housecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\controllers\\housecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\models\\addvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\models\\addvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\views\\video\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\views\\video\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\models\\entities\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\models\\entities\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\views\\house\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\views\\house\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\models\\entities\\house.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\models\\entities\\house.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\models\\entities\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\models\\entities\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\controllers\\housecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\controllers\\housecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\views\\video\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\views\\video\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\views\\video\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\views\\video\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\views\\video\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\views\\video\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\views\\house\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\views\\house\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\models\\addhouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\models\\addhouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\models\\addvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\models\\addvideo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|c:\\users\\loris\\documents\\github\\stage\\creatore_di_annunci\\creatore_di_annunci\\migrations\\20240607142827_r.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2983AA20-3ECD-4F72-9F8A-1D020392314E}|Creatore_di_annunci\\Creatore_di_annunci.csproj|solutionrelative:creatore_di_annunci\\migrations\\20240607142827_r.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,15 +70,16 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Creatore_di_annunci\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Creatore_di_annunci\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAQAAAAAAAAAAEBVwCAAAAASAAAA",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Views\\House\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Creatore_di_annunci\\Views\\House\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Views\\House\\Delete.cshtml",
+              "RelativeToolTip": "Creatore_di_annunci\\Views\\House\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-04T14:07:30.969Z"
+              "WhenOpened": "2024-06-07T14:43:33.53Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -72,86 +89,26 @@
               "RelativeDocumentMoniker": "Creatore_di_annunci\\Controllers\\VideoController.cs",
               "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Controllers\\VideoController.cs",
               "RelativeToolTip": "Creatore_di_annunci\\Controllers\\VideoController.cs",
-              "ViewState": "AQIAAKwAAAAAAAAAAAAAALgAAABPAAAA",
+              "ViewState": "AQIAAM4AAAAAAAAAAAAAAOQAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-03T08:26:33.567Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddHouse.cs",
-              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Models\\AddHouse.cs",
-              "RelativeDocumentMoniker": "Creatore_di_annunci\\Models\\AddHouse.cs",
-              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Models\\AddHouse.cs",
-              "RelativeToolTip": "Creatore_di_annunci\\Models\\AddHouse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T14:46:02.93Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HouseController.cs",
-              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Controllers\\HouseController.cs",
-              "RelativeDocumentMoniker": "Creatore_di_annunci\\Controllers\\HouseController.cs",
-              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Controllers\\HouseController.cs",
-              "RelativeToolTip": "Creatore_di_annunci\\Controllers\\HouseController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T14:46:52.457Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Views\\Video\\Add.cshtml",
-              "RelativeDocumentMoniker": "Creatore_di_annunci\\Views\\Video\\Add.cshtml",
-              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Views\\Video\\Add.cshtml",
-              "RelativeToolTip": "Creatore_di_annunci\\Views\\Video\\Add.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-04T14:04:03.843Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Views\\Video\\List.cshtml",
-              "RelativeDocumentMoniker": "Creatore_di_annunci\\Views\\Video\\List.cshtml",
-              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Views\\Video\\List.cshtml",
-              "RelativeToolTip": "Creatore_di_annunci\\Views\\Video\\List.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-04T14:04:00.284Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddVideo.cs",
-              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Models\\AddVideo.cs",
-              "RelativeDocumentMoniker": "Creatore_di_annunci\\Models\\AddVideo.cs",
-              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Models\\AddVideo.cs",
-              "RelativeToolTip": "Creatore_di_annunci\\Models\\AddVideo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T15:14:51.436Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "House.cs",
               "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Models\\Entities\\House.cs",
               "RelativeDocumentMoniker": "Creatore_di_annunci\\Models\\Entities\\House.cs",
               "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Models\\Entities\\House.cs",
               "RelativeToolTip": "Creatore_di_annunci\\Models\\Entities\\House.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T14:43:43.707Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Video.cs",
               "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Models\\Entities\\Video.cs",
               "RelativeDocumentMoniker": "Creatore_di_annunci\\Models\\Entities\\Video.cs",
@@ -163,15 +120,123 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HouseController.cs",
+              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Controllers\\HouseController.cs",
+              "RelativeDocumentMoniker": "Creatore_di_annunci\\Controllers\\HouseController.cs",
+              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Controllers\\HouseController.cs",
+              "RelativeToolTip": "Creatore_di_annunci\\Controllers\\HouseController.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:46:52.457Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Views\\Video\\Add.cshtml",
+              "RelativeDocumentMoniker": "Creatore_di_annunci\\Views\\Video\\Add.cshtml",
+              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Views\\Video\\Add.cshtml",
+              "RelativeToolTip": "Creatore_di_annunci\\Views\\Video\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T14:04:03.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Views\\Video\\Edit.cshtml",
               "RelativeDocumentMoniker": "Creatore_di_annunci\\Views\\Video\\Edit.cshtml",
               "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Views\\Video\\Edit.cshtml",
               "RelativeToolTip": "Creatore_di_annunci\\Views\\Video\\Edit.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAwwBoAAAA6AAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-04T14:30:33.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Views\\Video\\List.cshtml",
+              "RelativeDocumentMoniker": "Creatore_di_annunci\\Views\\Video\\List.cshtml",
+              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Views\\Video\\List.cshtml",
+              "RelativeToolTip": "Creatore_di_annunci\\Views\\Video\\List.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T14:04:00.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20240607142827_r.cs",
+              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Migrations\\20240607142827_r.cs",
+              "RelativeDocumentMoniker": "Creatore_di_annunci\\Migrations\\20240607142827_r.cs",
+              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Migrations\\20240607142827_r.cs",
+              "RelativeToolTip": "Creatore_di_annunci\\Migrations\\20240607142827_r.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T14:28:27.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\appsettings.json",
+              "RelativeDocumentMoniker": "Creatore_di_annunci\\appsettings.json",
+              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\appsettings.json",
+              "RelativeToolTip": "Creatore_di_annunci\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-07T08:25:21.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Views\\House\\List.cshtml",
+              "RelativeDocumentMoniker": "Creatore_di_annunci\\Views\\House\\List.cshtml",
+              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Views\\House\\List.cshtml",
+              "RelativeToolTip": "Creatore_di_annunci\\Views\\House\\List.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T10:36:27.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Creatore_di_annunci\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Creatore_di_annunci\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-04T14:07:30.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddHouse.cs",
+              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Models\\AddHouse.cs",
+              "RelativeDocumentMoniker": "Creatore_di_annunci\\Models\\AddHouse.cs",
+              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Models\\AddHouse.cs",
+              "RelativeToolTip": "Creatore_di_annunci\\Models\\AddHouse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T14:46:02.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddVideo.cs",
+              "DocumentMoniker": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Models\\AddVideo.cs",
+              "RelativeDocumentMoniker": "Creatore_di_annunci\\Models\\AddVideo.cs",
+              "ToolTip": "C:\\Users\\loris\\Documents\\GitHub\\STAGE\\Creatore_di_annunci\\Creatore_di_annunci\\Models\\AddVideo.cs",
+              "RelativeToolTip": "Creatore_di_annunci\\Models\\AddVideo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T15:14:51.436Z"
             }
           ]
         }

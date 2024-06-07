@@ -3,13 +3,17 @@ import pyodbc
 import subprocess
 import os
 
-# FUNZIONE PER ESTRARRE L'AUDIO
+# Funzione per estrarre l'audio
 def extract_audio(video_path):
     audio_path = video_path.replace('.mp4', '.mp3')
-    subprocess.run(['ffmpeg', '-i', video_path, '-vn', '-acodec', 'libmp3lame', '-y', audio_path], check=True)
+    try:
+        subprocess.run(['ffmpeg', '-i', video_path, '-vn', '-acodec', 'libmp3lame', '-y', audio_path], check=True, timeout=300)  # Timeout di 5 minuti
+    except subprocess.TimeoutExpired:
+        print(f"Timeout extracting audio from {video_path}")
+        raise
     return audio_path
 
-# FUNZIONE PER TRASCRIVERE L'AUDIO
+# Funzione per trascrivere l'audio
 def transcribe_audio(audio_path):
     model = whisper.load_model("base")
     result = model.transcribe(audio_path)
@@ -18,7 +22,7 @@ def transcribe_audio(audio_path):
 def main():
     conn = None
     try:
-        # CONNESSIONE CON IL DATABASE
+        # Connessione con il database
         conn = pyodbc.connect(
             'DRIVER={ODBC Driver 17 for SQL Server};'
             'SERVER=LORENZO\\SQLEXPRESS;'
@@ -28,7 +32,7 @@ def main():
         )
         cursor = conn.cursor()
 
-        # SELEZIONE DEGLI ELEMENTI CON STATO 0
+        # Selezione degli elementi con stato 0
         cursor.execute("SELECT id, Path FROM dbo.Videos WHERE status = 0")
         videos = cursor.fetchall()
 
@@ -39,7 +43,7 @@ def main():
         for video_Id, video_Path in videos:
             #print(f"Processing video ID: {video_Id}, Path: {video_Path}")
             
-            # AGGIORNAMENTO DELLO STATO A 1 (IN ELABORAZIONE)
+            # Aggiornamento dello stato a 1 (in elaborazione)
             cursor.execute("UPDATE dbo.Videos SET status = 1 WHERE id = ?", video_Id)
             conn.commit()
 
@@ -47,16 +51,16 @@ def main():
                 audio_path = extract_audio(video_Path)
                 transcription = transcribe_audio(audio_path)
                 
-                # OUTPUT DELLA TRASCRIZIONE
+                # Output della trascrizione
                 print({transcription})
 
-                # AGGIORNAMENTO DEL DATABASE
+                # Aggiornamento del database
                 cursor.execute("UPDATE dbo.Videos SET Description = ?, Status = 2 WHERE id = ?", (transcription, video_Id))
                 conn.commit()
                 
                 #print(f"Updated video ID: {video_Id} with transcription.")
 
-                # ELIMINAZIONE DEL FILE AUDIO UTILIZZATO PER LA TRASCRIZIONE
+                # Eliminazione del file audio utilizzato per la trascrizione
                 if os.path.exists(audio_path):
                     os.remove(audio_path)
                     #print(f"Deleted audio file: {audio_path}")
@@ -67,7 +71,7 @@ def main():
                 cursor.execute("UPDATE dbo.Videos SET status = 0 WHERE id = ?", video_Id)
                 conn.commit()
 
-        #print("Processing completed.")
+        print("Processing completed.")
 
     except pyodbc.Error as e:
         print(f"SQL Server error: {e}")

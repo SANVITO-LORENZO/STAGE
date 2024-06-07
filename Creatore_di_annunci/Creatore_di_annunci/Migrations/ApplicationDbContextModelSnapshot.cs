@@ -40,6 +40,18 @@ namespace Creatore_di_annunci.Migrations
                     b.Property<bool>("ascensore")
                         .HasColumnType("bit");
 
+                    b.Property<bool>("giardino")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("piscina")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("prezzo")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("terrazza")
+                        .HasColumnType("bit");
+
                     b.HasKey("Id");
 
                     b.ToTable("houses");

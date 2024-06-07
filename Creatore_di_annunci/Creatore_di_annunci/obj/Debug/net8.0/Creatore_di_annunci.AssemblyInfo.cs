@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Creatore_di_annunci")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c604314924ca32ea21beecd91063fad0068f56b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55244367c29bc6d70c9cd6e98e7e15938f9d42fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("Creatore_di_annunci")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Creatore_di_annunci")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -45,5 +45,48 @@ namespace Creatore_di_annunci.Controllers
             return View(video);
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Edit(Guid id)
+        {
+            var houses = await dbContext.houses.FindAsync(id);
+            return View(houses);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Edit(House viewModel)
+        {
+            var house = await dbContext.houses.FindAsync(viewModel.Id);
+
+            if (house is not null)
+            {
+                house.MQuadri = viewModel.MQuadri;
+                house.Piani = viewModel.Piani;
+                house.Bagni = viewModel.Bagni;
+                house.ascensore = viewModel.ascensore;
+                house.giardino = viewModel.giardino;
+                house.piscina = viewModel.piscina;
+                house.terrazza = viewModel.terrazza;
+                house.prezzo = viewModel.prezzo;
+
+                await dbContext.SaveChangesAsync();
+            }
+
+            return RedirectToAction("List", "House");
+        }
+        [HttpPost]
+        public async Task<IActionResult> Delete(Guid id)
+        {
+            var house = await dbContext.houses.FindAsync(id);
+
+            if (house != null)
+            {
+                dbContext.houses.Remove(house);
+                await dbContext.SaveChangesAsync();
+            }
+
+            return RedirectToAction("List", "House");
+        }
+
+
     }
 }
