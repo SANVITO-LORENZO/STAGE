@@ -222,11 +222,10 @@ namespace Creatore_di_annunci.Controllers
             await dbContext.SaveChangesAsync();
 
             // Inizializza l'API OpenAI
-            //var api = new Open
-            //    AIAPI(new APIAuthen
-            //        tication("sk-VBfcEDlhSO07ncWm1ld" +
-            //        "YT3BlbkFJNKnUev9xIKrS" +
-            //        "38stdAqh"));
+            //var api = new OpenA
+            //    IAPI(new A
+            //    PIAuthentication("sk-VBfcEDlhSO07nc" +
+            //    "Wm1ldYT3BlbkFJNKnUev9xIKrS38stdAqh"));
 
             // Descrizione dell'appartamento
             string description = video.Description;
@@ -281,11 +280,9 @@ namespace Creatore_di_annunci.Controllers
 
             // Inizializza l'API OpenAI
             //var api = new OpenA
-            //    IAPI(new APIAuthen
-            //        tication("sk-VBfcEDlhSO07ncWm1ldYT" +
-            //        "3BlbkFJNKnUev9xIKrS" +
-            //        "38stdAqh"));
-
+            //    IAPI(new A
+            //    PIAuthentication("sk-VBfcEDlhSO07nc" +
+            //    "Wm1ldYT3BlbkFJNKnUev9xIKrS38stdAqh"));
             // Creazione del messaggio da inviare
             var chat = api.Chat.CreateConversation();
             chat.Model = Model.GPT4_Turbo;
